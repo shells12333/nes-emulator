@@ -1,0 +1,58 @@
+﻿  Bus.cpp
+  main.cpp
+  olc6502.cpp
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(229,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(244,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(259,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(274,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(289,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(304,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(319,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(334,8): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(416,28): warning C4333: '>>': right shift by too large amount, data loss
+C:\Users\harla\source\repos\EMULATOR\EMULATOR\olc6502.cpp(438,27): warning C4333: '>>': right shift by too large amount, data loss
+  Generating Code...
+Bus.obj : error LNK2019: unresolved external symbol "public: __cdecl olc6502::~olc6502(void)" (??1olc6502@@QEAA@XZ) referenced in function "int `public: __cdecl Bus::Bus(void)'::`1'::dtor$0" (?dtor$0@?0???0Bus@@QEAA@XZ@4HA)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::ASL(void)" (?ASL@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::BIT(void)" (?BIT@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::BRK(void)" (?BRK@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::CLI(void)" (?CLI@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::CLV(void)" (?CLV@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::CMP(void)" (?CMP@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::CPX(void)" (?CPX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::CPY(void)" (?CPY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::DEC(void)" (?DEC@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::DEX(void)" (?DEX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::DEY(void)" (?DEY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::EOR(void)" (?EOR@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::INC(void)" (?INC@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::INX(void)" (?INX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::INY(void)" (?INY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::JMP(void)" (?JMP@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::JSR(void)" (?JSR@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::LDA(void)" (?LDA@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::LDX(void)" (?LDX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::LDY(void)" (?LDY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::LSR(void)" (?LSR@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::NOP(void)" (?NOP@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::ORA(void)" (?ORA@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::PHP(void)" (?PHP@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::PLP(void)" (?PLP@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::ROL(void)" (?ROL@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::ROR(void)" (?ROR@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::RTS(void)" (?RTS@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::SEC(void)" (?SEC@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::SED(void)" (?SED@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::SEI(void)" (?SEI@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::STA(void)" (?STA@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::STX(void)" (?STX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::STY(void)" (?STY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TAX(void)" (?TAX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TAY(void)" (?TAY@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TSX(void)" (?TSX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TXA(void)" (?TXA@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TXS(void)" (?TXS@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::TYA(void)" (?TYA@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::XXX(void)" (?XXX@olc6502@@AEAAEXZ) referenced in function "public: __cdecl olc6502::olc6502(void)" (??0olc6502@@QEAA@XZ)
+olc6502.obj : error LNK2019: unresolved external symbol "private: unsigned char __cdecl olc6502::GetFlag(enum olc6502::FLAGS6502)" (?GetFlag@olc6502@@AEAAEW4FLAGS6502@1@@Z) referenced in function "private: unsigned char __cdecl olc6502::ADC(void)" (?ADC@olc6502@@AEAAEXZ)
+C:\Users\harla\source\repos\EMULATOR\x64\Debug\EMULATOR.exe : fatal error LNK1120: 43 unresolved externals
